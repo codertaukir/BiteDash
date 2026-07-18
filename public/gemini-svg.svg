@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad)" />
+  
+  <!-- Food / Burger Icon Graphics (White) -->
+  <g fill="#ffffff">
+    <!-- Top Bun -->
+    <path d="M160 240c0-53 43-96 96-96s96 43 96 96H160z" />
+    <!-- Patty / Middle Layer -->
+    <rect x="140" y="260" width="232" height="24" rx="12" />
+    <!-- Bottom Bun -->
+    <path d="M160 300h192c0 35-28 64-64 64h-64c-36 0-64-29-64-64z" />
+    <!-- Dynamic Speed Lines (Food Delivery Vibe) -->
+    <rect x="100" y="210" width="40" height="12" rx="6" opacity="0.8" />
+    <rect x="80" y="266" width="45" height="12" rx="6" opacity="0.8" />
+    <rect x="110" y="318" width="35" height="12" rx="6" opacity="0.8" />
+  </g>
+</svg>
